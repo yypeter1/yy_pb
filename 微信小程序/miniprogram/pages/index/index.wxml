@@ -1,0 +1,20 @@
+<view class="image-container">
+    <image class="img" src="/images/background.jpg" alt="background" mode="aspectFill"></image>
+    <image class="black-and-white position_1" src="/images/1.png" alt="1" mode="aspectFill" ></image>
+    <text class="text_1">课堂签到系统</text>
+    <image class="black-and-white position_2" src="/images/4.png" alt="2" mode="aspectFill" ></image>
+    <image class="black-and-white position_3" src="/images/3.png" alt="3" mode="aspectFill" ></image>
+    <image class="black-and-white position_4" src="/images/5.png" bindtap="onImageClick" alt="4" mode="aspectFill" ></image>
+    <text class="text_2" bindtap="onImageClick">我是学生</text>
+    <image class="black-and-white position_5" src="/images/6.png" alt="4" mode="aspectFill" ></image>
+    <text class="text_3">我是教师</text>
+</view>
+
+
+
+
+
+
+
+
+

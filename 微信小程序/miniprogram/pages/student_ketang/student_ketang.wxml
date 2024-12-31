@@ -1,0 +1,25 @@
+<!--pages/student_ketang/student_ketang.less.wxml-->
+<view class="container">
+  <!-- 搜索框容器 -->
+  <view class="search-box-container">
+    <!-- 搜索框 -->
+    <view class="search-box">
+        <icon class="search-icon" type="search" size="20" />
+      <input class="search-input" placeholder="搜索班级" bindinput="onSearchInput" />
+    </view>
+    <!-- 加入班级按钮 -->
+    <button class="join-class-btn" bindtap="showPopup">加入班级</button>
+  </view>
+</view>
+ <!-- 悬浮框 -->
+ <view class="popup" wx:if="{{showPopupFlag}}">
+    <view class="popup-content">
+      <text>班级编号</text>
+      <input class="class-id-input" placeholder="请输入班级编号" bindinput="onClassIdInput" />
+      <button class="join-btn" bindtap="joinClass">加入</button>
+    </view>
+</view>
+
+
+
+
