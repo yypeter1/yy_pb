@@ -1,0 +1,197 @@
+/**index.less**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.image-container {
+    background-color: inherit;
+  }
+  
+.img {
+    margin-top: 40px;  /* 向下移动 20px */
+    width: 430px;
+    height: 940px;
+    display: block;
+    transform: translate(0px, -2.525px) rotate(0deg);
+}
+.background {
+    background-color: white; /* 设置背景为纯白色 */
+    background-image: url("/images/2.jpg");
+    position: relative;
+  }
+  
+ /* 图片固定在特定位置 */
+ .black-and-white {
+    position: absolute;
+    mix-blend-mode: multiply; /* 使黑色部分保留，白色部分透明 */
+}
+.position_1{ 
+    width: 70px;
+    height: 70px;
+    top: 300px;
+    left: 30px;
+}
+.position_2{ 
+    width: 105px;
+    height: 105px;
+    top: 450px;
+    left: 50px;
+}
+.position_3{ 
+    width: 145px;
+    height: 116px;
+    top: 445px;
+    left: 250px;
+}
+.position_4{ 
+    width: 145px;
+    height: 50px;
+    top: 580px;
+    left: 30px;
+}
+.position_5{ 
+    width: 145px;
+    height: 50px;
+    top: 580px;
+    left: 245px;
+}
+.text_1{
+    top: 310px;
+    left: 100px;
+    position: absolute;
+    font-size: 40px;  /* 设置文字大小与图片的高度一致 */
+    margin-left: 20px;  /* 图片和文字之间的间距 */
+}
+.text_2{
+    top: 587px;
+    left: 34px;
+    color: white;  /* 设置文字为白色 */
+    position: absolute;
+    font-size: 25px;  /* 设置文字大小与图片的高度一致 */
+    margin-left: 20px;  /* 图片和文字之间的间距 */
+}
+.text_3{
+    top: 587px;
+    left: 248px;
+    color: white;  /* 设置文字为白色 */
+    position: absolute;
+    font-size: 25px;  /* 设置文字大小与图片的高度一致 */
+    margin-left: 20px;  /* 图片和文字之间的间距 */
+}
+
+ 
+  
+  
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+  width: 80%;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.avatar-wrapper {
+  padding: 0;
+  width: 56px !important;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+
+.nickname-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-top: .5px solid rgba(0, 0, 0, 0.1);
+  border-bottom: .5px solid rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.nickname-label {
+  width: 105px;
+}
+
+.nickname-input {
+  flex: 1;
+}
+/* login-page.wxss */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8; /* 页面背景颜色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .title {
+    margin-bottom: 300rpx;
+  }
+  
+  .title-text {
+    font-size: 60rpx;
+    font-weight: bold;
+    color: #101010;
+  }
+  
+  .role-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .role-button {
+    width: 250rpx;
+    height: 80rpx;
+    margin-bottom: 30rpx;
+    background-color: #009900;
+    color: white;
+    border-radius: 30rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20rpx;
+  }
+  
+  .role-icon {
+    width: 45rpx;
+    height: 45rpx;
+    margin-right: 20rpx;
+  }
+  
+  .role-text {
+    font-size: 35rpx;
+    font-weight: 500;
+  }
+  .title-image {
+    width: 200rpx;   /* 设置图片宽度 */
+    height: 100rpx;   /* 设置图片高度 */
+    margin-bottom: 20rpx;  /* 图片和标题之间的间距 */
+  }
+  

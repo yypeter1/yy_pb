@@ -1,0 +1,46 @@
+<!--pages/student_register/student_register.less.wxml-->
+<image class="black-and-white position_2" src="/images/4.png" alt="2" mode="aspectFill" ></image>
+<text class="text_2">学生注册</text>
+<view class="container">
+  <!-- 第一行 手机号 -->
+  <view class="form-item">
+    <text class="label">手机号：</text>
+    <input class="input" placeholder="请输入手机号" bindinput="onPhoneInput" />
+  </view>
+
+  <!-- 第二行 验证码 -->
+  <text class="text_3">验证码:</text>
+  <view class="form-item">
+    <text class="label" ></text>
+    <view class="code-container">
+      <input class="input code-input" placeholder="请输入验证码" bindinput="onCodeInput" />
+    </view> 
+    <button class="get-code" bindtap="onGetCode">获取验证码</button>
+  </view>
+
+  <!-- 第三行 姓名 -->
+  <view class="form-item">
+    <text class="label">姓名：</text>
+    <input class="input" placeholder="请输入姓名" bindinput="onNameInput" />
+  </view>
+
+  <!-- 第四行 学号 -->
+  <view class="form-item">
+    <text class="label">学号：</text>
+    <input class="input" placeholder="请输入学号" bindinput="onStudentIdInput" />
+  </view>
+
+  <!-- 第五行 密码 -->
+  <view class="form-item">
+    <text class="label">密码：</text>
+    <input class="input" type="password" placeholder="请输入密码" bindinput="onPasswordInput" />
+  </view>
+
+  <!-- 第六行 确认密码 -->
+  <view class="form-item">
+    <text class="label">确认密码：</text>
+    <input class="input" type="password" placeholder="请再次输入密码" bindinput="onConfirmPasswordInput" />
+  </view>
+
+  <button class="register-button" bindtap="onRegister">注册</button>
+</view>
